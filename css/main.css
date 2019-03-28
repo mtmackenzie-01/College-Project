@@ -1,0 +1,161 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 2rem;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body  {
+    background-image: url("https://i.pinimg.com/originals/25/6e/3d/256e3d209457dc24d05ee39f2773a7a4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#Title {
+  color: #ffffff;
+  text-align:center;
+  font-size: 4rem;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.orderbutton {
+  background-color: rgba(255, 159, 41, 1);
+  color: black;
+  transition: all 0.2s;
+}
+
+.orderbutton:hover {
+  color :rgba(255, 159, 41, 1)!important;
+}
+
+.orderbuttonparent {
+  float: right;
+}
+
+.about {
+  color : rgba(226, 223, 223, 1);
+  background-color: rgba(0,0,0,0.5);
+  border-style: outset;
+  font-size: 2rem;
+}
+
+.link {
+  color: rgba(166, 12, 12, 1);
+}
+
+.link:visited {
+  color: rgba(17, 172, 232, 1);
+}
+
+.TimeText {
+  color : rgba(226, 223, 223, 1);
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.times {
+  color : rgba(226, 223, 223, 1);
+  font-size: 2rem;
+}
+ .times li {
+   float: none;
+ }
+
+.timesection {
+  border: 1rem solid rgba(1, 71, 63, 1);
+  padding: 4rem;
+  background-color: rgba(0,0,0,0.5);
+  width: 44rem;
+  margin: 0;
+}
+
+.timefooter {
+  border: 1rem solid rgba(1, 71, 63, 1);
+  padding: 4rem;
+  background-color: rgba(0,0,0,0.5);
+  width: 44rem;
+  margin: 10rem auto 0 0;
+  float: center;
+}
+
+.Subbox {
+  color: rgba(255, 255, 255, 1);
+  margin-top: -15rem;
+  margin-right: 2rem;
+  float: right;
+}
+
+.subtext {
+  float: right;
+  color: rgba(226, 223, 223, 1);
+  background-color: rgba(0,0,0,0.5);
+  margin-right: 5rem;
+  margin-top: -20rem;
+}
+
+.map {
+  float: center;
+  margin-left: 40rem;
+  margin-right: 40rem;
+  background-color: rgba(0,0,0,0.5);
+  border: 1rem solid rgba(255, 0, 0, 0.5);
+}
+
+.ordersection {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 20%;
+  float: left;
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  padding: 2rem;
+}
+
+#buttonsection {
+  background-color: rgba(255, 159, 41, 1);
+  border: none;
+  padding: 1rem;
+  
+}
